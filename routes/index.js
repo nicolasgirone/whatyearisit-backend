@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET year. */
 router.get('/year', function(req, res, next) {
-  req.send('date', { year: '2050' });
+  res.json({ year: '2023' });
 });
 
 module.exports = router;
